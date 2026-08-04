@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enregistrements — Lev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="recordings">
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Lev<span data-i18n="logo.tagline">Pianiste</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="biographie.html" data-i18n="nav.bio">Biographie</a></li>
+        <li><a href="calendrier.html" data-i18n="nav.calendar">Calendrier</a></li>
+        <li><a href="enregistrements.html" class="active" data-i18n="nav.recordings">Enregistrements</a></li>
+        <li><a href="presse.html" data-i18n="nav.press">Presse</a></li>
+        <li><a href="actualites.html" data-i18n="nav.news">Actualités</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Management</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" data-i18n-aria-label="aria.openMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow" data-i18n="recordings.eyebrow">Discographie</p>
+    <h1 data-i18n="recordings.title">Enregistrements</h1>
+  </div>
+</section>
+
+<section id="ecouter" style="padding-top:70px;">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-i18n="recordings.ecouter.eyebrow">Écouter</p>
+      <h2 data-i18n="recordings.ecouter.title">Concerto n°2, en concert</h2>
+      <div class="rule"></div>
+    </div>
+    <video controls preload="metadata" poster="images/gallery/IMG_5427.JPG" style="width:100%;max-width:900px;display:block;margin:0 auto;background:#000;">
+      <source src="videos/LEV.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container rec-grid">
+    <div class="rec-item">
+      <div class="visual" style="background-image:url('images/gallery/IMG_5621.JPG');"></div>
+      <p class="label" data-i18n="recordings.rec1.label">Album — 2026</p>
+      <h3 data-i18n="recordings.rec1.title">Œuvres tardives</h3>
+    </div>
+    <div class="rec-item">
+      <div class="visual" style="background-image:url('images/gallery/IMG_5424.JPG');"></div>
+      <p class="label" data-i18n="recordings.rec2.label">Album — 2024</p>
+      <h3 data-i18n="recordings.rec2.title">Sonates</h3>
+    </div>
+    <a class="rec-item" href="#ecouter">
+      <div class="visual" style="background-image:url('images/gallery/IMG_5427.JPG');"></div>
+      <p class="label" data-i18n="recordings.rec3.label">Vidéo — Concert live</p>
+      <h3 data-i18n="recordings.rec3.title">Concerto n°2, en concert</h3>
+    </a>
+    <div class="rec-item">
+      <div class="visual" style="background-image:url('images/gallery/IMG_5617.JPG');"></div>
+      <p class="label" data-i18n="recordings.rec4.label">Album — 2021</p>
+      <h3 data-i18n="recordings.rec4.title">Musique de chambre</h3>
+    </div>
+  </div>
+</section>
+
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-i18n="recordings.videos.eyebrow">Vidéos</p>
+      <h2 data-i18n="recordings.videos.title">Concerts filmés</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="video-grid">
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/R5-wiWcNpsA" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="R5-wiWcNpsA" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/qC3JARGGowA" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="qC3JARGGowA" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/baPAHBO71MM" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="baPAHBO71MM" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/O9vvSHnlWzo" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="O9vvSHnlWzo" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/b4yZaNx_sxc" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="b4yZaNx_sxc" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+      <div class="frame">
+        <iframe src="https://www.youtube.com/embed/-1xNhn1rLeE" title="Lev Tchéfanov — concert" allowfullscreen loading="lazy"></iframe>
+        <button type="button" class="expand-btn" data-video-id="-1xNhn1rLeE" aria-label="Agrandir la vidéo"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="video-modal" id="videoModal">
+  <button type="button" class="video-modal-close" id="videoModalClose" aria-label="Fermer">&times;</button>
+  <div class="video-modal-inner">
+    <div class="video-modal-frame">
+      <iframe id="videoModalIframe" src="" title="Lev Tchéfanov — concert agrandi" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p class="copyright" data-i18n="footer.copyright">&copy; 2026 Lev. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presse — Lev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="press">
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Lev<span data-i18n="logo.tagline">Pianiste</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="biographie.html" data-i18n="nav.bio">Biographie</a></li>
+        <li><a href="calendrier.html" data-i18n="nav.calendar">Calendrier</a></li>
+        <li><a href="enregistrements.html" data-i18n="nav.recordings">Enregistrements</a></li>
+        <li><a href="presse.html" class="active" data-i18n="nav.press">Presse</a></li>
+        <li><a href="actualites.html" data-i18n="nav.news">Actualités</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Management</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" data-i18n-aria-label="aria.openMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow" data-i18n="press.eyebrow">Revue de presse</p>
+    <h1 data-i18n="press.title">Presse</h1>
+  </div>
+</section>
+
+<section style="padding-top:40px;">
+  <div class="container press-list">
+    <div class="press-item">
+      <p class="source" data-i18n="press.item1.source">Le Monde de la Musique — Mars 2026</p>
+      <blockquote data-i18n="press.item1.quote">« Une interprétation d'une clarté et d'une intensité rares, portée par une technique impeccable. »</blockquote>
+    </div>
+    <div class="press-item">
+      <p class="source" data-i18n="press.item2.source">Gramophone — Janvier 2026</p>
+      <blockquote data-i18n="press.item2.quote">« Lev impose un son personnel, entre rigueur et liberté, qui marque durablement l'auditeur. »</blockquote>
+    </div>
+    <div class="press-item">
+      <p class="source" data-i18n="press.item3.source">The Strad — Octobre 2025</p>
+      <blockquote data-i18n="press.item3.quote">« Un artiste complet, dont le jeu allie profondeur d'analyse et sens du récit musical. »</blockquote>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p class="copyright" data-i18n="footer.copyright">&copy; 2026 Lev. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

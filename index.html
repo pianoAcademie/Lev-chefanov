@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lev — Pianiste</title>
+<meta name="description" content="Site officiel de Lev, pianiste classique — biographie, agenda, enregistrements, presse et actualités.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Lev<span data-i18n="logo.tagline">Pianiste</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="biographie.html" data-i18n="nav.bio">Biographie</a></li>
+        <li><a href="calendrier.html" data-i18n="nav.calendar">Calendrier</a></li>
+        <li><a href="enregistrements.html" data-i18n="nav.recordings">Enregistrements</a></li>
+        <li><a href="presse.html" data-i18n="nav.press">Presse</a></li>
+        <li><a href="actualites.html" data-i18n="nav.news">Actualités</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Management</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" data-i18n-aria-label="aria.openMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" style="background-image: linear-gradient(180deg, rgba(17,17,17,0.15) 0%, rgba(17,17,17,0.55) 100%), url('images/gallery/IMG_5451.JPG');">
+  <div class="container hero-content">
+    <p class="eyebrow" data-i18n="home.hero.eyebrow">Pianiste classique</p>
+    <h1 data-i18n="home.hero.title">Lev</h1>
+    <p data-i18n="home.hero.text">Récitals, concertos et musique de chambre à travers le monde. Découvrez l'actualité, l'agenda et les enregistrements.</p>
+    <a href="calendrier.html" class="btn" style="margin-top:24px;border-color:#fff;" data-i18n="home.hero.cta">Voir l'agenda</a>
+  </div>
+  <span class="scroll-cue" data-i18n="home.hero.scroll">Défiler</span>
+</section>
+
+<section>
+  <div class="container split">
+    <div class="visual">
+      <img src="images/gallery/IMG_5606.JPG" alt="Nouvel enregistrement">
+    </div>
+    <div class="text">
+      <p class="eyebrow" data-i18n="home.split1.eyebrow">Nouvel enregistrement</p>
+      <h2 data-i18n="home.split1.title">Œuvres tardives — un nouvel album</h2>
+      <p data-i18n="home.split1.text">Un programme consacré aux pages les plus intimes du répertoire romantique, enregistré en concert et en studio.</p>
+      <a href="enregistrements.html#ecouter" class="btn" data-i18n="home.split1.cta">Écouter</a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-i18n="home.highlights.eyebrow">À la une</p>
+      <h2 data-i18n="home.highlights.title">Temps forts</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="visual" style="background-image:url('images/gallery/IMG_5416.JPG');"></div>
+        <p class="date" data-i18n="home.card1.date">Mars 2027</p>
+        <h3 data-i18n="home.card1.title">Concert hommage</h3>
+        <p data-i18n="home.card1.text">Une soirée exceptionnelle dans l'une des plus belles salles d'Europe.</p>
+      </div>
+      <div class="card">
+        <div class="visual" style="background-image:url('images/gallery/IMG_5603.JPG');"></div>
+        <p class="date" data-i18n="home.card2.date">Automne 2026</p>
+        <h3 data-i18n="home.card2.title">Tournée internationale</h3>
+        <p data-i18n="home.card2.text">Une série de récitals à travers plusieurs pays, avec un programme renouvelé.</p>
+      </div>
+      <div class="card">
+        <div class="visual" style="background-image:url('images/gallery/IMG_5619.JPG');"></div>
+        <p class="date" data-i18n="home.card3.date">Été 2026</p>
+        <h3 data-i18n="home.card3.title">Festival d'été</h3>
+        <p data-i18n="home.card3.text">Participation à un festival de musique de chambre reconnu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container split reverse">
+    <div class="visual">
+      <img src="images/gallery/IMG_5610.JPG" alt="Prochain concert">
+    </div>
+    <div class="text">
+      <p class="eyebrow" data-i18n="home.split2.eyebrow">Prochain concert</p>
+      <h2 data-i18n="home.split2.title">Concerto — Salle Philharmonique</h2>
+      <p data-i18n="home.split2.text">Date, salle et programme détaillé disponibles dans la rubrique calendrier.</p>
+      <a href="calendrier.html" class="btn" data-i18n="home.split2.cta">Consulter le calendrier</a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-i18n="home.gallery.eyebrow">Galerie</p>
+      <h2 data-i18n="home.gallery.title">En images</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="gallery-grid">
+      <a href="images/gallery/IMG_5419.JPG" target="_blank"><img src="images/gallery/IMG_5419.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+      <a href="images/gallery/IMG_5420.JPG" target="_blank"><img src="images/gallery/IMG_5420.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+      <a href="images/gallery/IMG_5421.JPG" target="_blank"><img src="images/gallery/IMG_5421.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+      <a href="images/gallery/IMG_5423.JPG" target="_blank"><img src="images/gallery/IMG_5423.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+      <a href="images/gallery/IMG_5425.JPG" target="_blank"><img src="images/gallery/IMG_5425.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+      <a href="images/gallery/IMG_5426.JPG" target="_blank"><img src="images/gallery/IMG_5426.JPG" alt="Photo" data-i18n-alt="home.gallery.alt"></a>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <h2 data-i18n="home.newsletter.title">Restez informé</h2>
+    <p data-i18n="home.newsletter.text">Inscrivez-vous pour recevoir les dernières actualités et dates de concert.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Votre adresse e-mail" data-i18n-placeholder="home.newsletter.placeholder" required>
+      <button type="submit" data-i18n="home.newsletter.submit">S'inscrire</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p class="copyright" data-i18n="footer.copyright">&copy; 2026 Lev. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

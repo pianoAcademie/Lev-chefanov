@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Management & Contact — Lev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Lev<span data-i18n="logo.tagline">Pianiste</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="biographie.html" data-i18n="nav.bio">Biographie</a></li>
+        <li><a href="calendrier.html" data-i18n="nav.calendar">Calendrier</a></li>
+        <li><a href="enregistrements.html" data-i18n="nav.recordings">Enregistrements</a></li>
+        <li><a href="presse.html" data-i18n="nav.press">Presse</a></li>
+        <li><a href="actualites.html" data-i18n="nav.news">Actualités</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav.contact">Management</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" data-i18n-aria-label="aria.openMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow" data-i18n="contact.eyebrow">Nous contacter</p>
+    <h1 data-i18n="contact.title">Management</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div class="contact-block">
+      <h3 data-i18n="contact.heading">Management général</h3>
+      <p data-i18n="contact.text">Pour toute demande de booking, presse ou partenariat.</p>
+      <a class="email" href="mailto:contact@piano-academie.com">contact@piano-academie.com</a>
+      <p style="margin-top:30px;">+33 1 23 45 67 89</p>
+      <p data-i18n="contact.location">Paris, France</p>
+      <a class="btn" style="margin-top:20px;display:inline-block;" href="documents/CV-Lev-Tchefanov.docx" download data-i18n="contact.cvDownload">Télécharger le CV</a>
+    </div>
+    <form class="contact-form">
+      <div class="field">
+        <label for="name" data-i18n="contact.form.name">Nom</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="field">
+        <label for="email" data-i18n="contact.form.email">E-mail</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="field">
+        <label for="message" data-i18n="contact.form.message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn" data-i18n="contact.form.submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p class="copyright" data-i18n="footer.copyright">&copy; 2026 Lev. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendrier — Lev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="calendar">
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Lev<span data-i18n="logo.tagline">Pianiste</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="biographie.html" data-i18n="nav.bio">Biographie</a></li>
+        <li><a href="calendrier.html" class="active" data-i18n="nav.calendar">Calendrier</a></li>
+        <li><a href="enregistrements.html" data-i18n="nav.recordings">Enregistrements</a></li>
+        <li><a href="presse.html" data-i18n="nav.press">Presse</a></li>
+        <li><a href="actualites.html" data-i18n="nav.news">Actualités</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Management</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" data-i18n-aria-label="aria.openMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow" data-i18n="calendar.eyebrow">Agenda</p>
+    <h1 data-i18n="calendar.title">Calendrier</h1>
+  </div>
+</section>
+
+<section style="padding-top:70px;">
+  <div class="container event-list">
+    <div class="event-row">
+      <div class="date" data-i18n-list="calendar.events" data-i18n-index="0" data-i18n-field="date">14 Sept<br>2026</div>
+      <div>
+        <h3 data-i18n-list="calendar.events" data-i18n-index="0" data-i18n-field="title">Récital — Sonates et Ballades</h3>
+        <p class="place" data-i18n-list="calendar.events" data-i18n-index="0" data-i18n-field="place">Salle Gaveau, Paris, France</p>
+      </div>
+      <a href="contact.html" class="btn" data-i18n="calendar.cta">Billetterie</a>
+    </div>
+    <div class="event-row">
+      <div class="date" data-i18n-list="calendar.events" data-i18n-index="1" data-i18n-field="date">02 Oct<br>2026</div>
+      <div>
+        <h3 data-i18n-list="calendar.events" data-i18n-index="1" data-i18n-field="title">Concerto n°2 — Orchestre Philharmonique</h3>
+        <p class="place" data-i18n-list="calendar.events" data-i18n-index="1" data-i18n-field="place">Konzerthaus, Vienne, Autriche</p>
+      </div>
+      <a href="contact.html" class="btn" data-i18n="calendar.cta">Billetterie</a>
+    </div>
+    <div class="event-row">
+      <div class="date" data-i18n-list="calendar.events" data-i18n-index="2" data-i18n-field="date">19 Nov<br>2026</div>
+      <div>
+        <h3 data-i18n-list="calendar.events" data-i18n-index="2" data-i18n-field="title">Musique de chambre — Trio</h3>
+        <p class="place" data-i18n-list="calendar.events" data-i18n-index="2" data-i18n-field="place">Wigmore Hall, Londres, Royaume-Uni</p>
+      </div>
+      <a href="contact.html" class="btn" data-i18n="calendar.cta">Billetterie</a>
+    </div>
+    <div class="event-row">
+      <div class="date" data-i18n-list="calendar.events" data-i18n-index="3" data-i18n-field="date">08 Jan<br>2027</div>
+      <div>
+        <h3 data-i18n-list="calendar.events" data-i18n-index="3" data-i18n-field="title">Récital d'ouverture de saison</h3>
+        <p class="place" data-i18n-list="calendar.events" data-i18n-index="3" data-i18n-field="place">Philharmonie, Berlin, Allemagne</p>
+      </div>
+      <a href="contact.html" class="btn" data-i18n="calendar.cta">Billetterie</a>
+    </div>
+    <div class="event-row">
+      <div class="date" data-i18n-list="calendar.events" data-i18n-index="4" data-i18n-field="date">22 Mar<br>2027</div>
+      <div>
+        <h3 data-i18n-list="calendar.events" data-i18n-index="4" data-i18n-field="title">Tournée nord-américaine</h3>
+        <p class="place" data-i18n-list="calendar.events" data-i18n-index="4" data-i18n-field="place">Carnegie Hall, New York, États-Unis</p>
+      </div>
+      <a href="contact.html" class="btn" data-i18n="calendar.cta">Billetterie</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p class="copyright" data-i18n="footer.copyright">&copy; 2026 Lev. Tous droits réservés.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
