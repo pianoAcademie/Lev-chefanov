@@ -1,6 +1,6 @@
 const translations = {
   fr: {
-    nav: { home: `Accueil`, bio: `Biographie`, calendar: `Calendrier`, recordings: `Enregistrements`, press: `Presse`, news: `Actualités`, contact: `Management` },
+    nav: { home: `Accueil`, bio: `Biographie`, calendar: `Calendrier`, recordings: `Enregistrements`, photos: `Photos`, press: `Presse`, news: `Actualités`, contact: `Management` },
     logo: { tagline: `Pianiste` },
     footer: { copyright: `© 2026 Lev. Tous droits réservés.` },
     aria: { openMenu: `Ouvrir le menu` },
@@ -9,9 +9,14 @@ const translations = {
       bio: `Biographie — Lev`,
       calendar: `Calendrier — Lev`,
       recordings: `Enregistrements — Lev`,
+      photos: `Photos — Lev`,
       press: `Presse — Lev`,
       news: `Actualités — Lev`,
       contact: `Management & Contact — Lev`
+    },
+    photos: {
+      eyebrow: `Galerie`,
+      title: `Photos`
     },
     alerts: {
       newsletterSuccess: `Merci pour votre inscription !`,
@@ -162,7 +167,7 @@ const translations = {
   },
 
   en: {
-    nav: { home: `Home`, bio: `Biography`, calendar: `Calendar`, recordings: `Recordings`, press: `Press`, news: `News`, contact: `Management` },
+    nav: { home: `Home`, bio: `Biography`, calendar: `Calendar`, recordings: `Recordings`, photos: `Photos`, press: `Press`, news: `News`, contact: `Management` },
     logo: { tagline: `Pianist` },
     footer: { copyright: `© 2026 Lev. All rights reserved.` },
     aria: { openMenu: `Open menu` },
@@ -171,9 +176,14 @@ const translations = {
       bio: `Biography — Lev`,
       calendar: `Calendar — Lev`,
       recordings: `Recordings — Lev`,
+      photos: `Photos — Lev`,
       press: `Press — Lev`,
       news: `News — Lev`,
       contact: `Management & Contact — Lev`
+    },
+    photos: {
+      eyebrow: `Gallery`,
+      title: `Photos`
     },
     alerts: {
       newsletterSuccess: `Thank you for subscribing!`,
@@ -324,7 +334,7 @@ const translations = {
   },
 
   ru: {
-    nav: { home: `Главная`, bio: `Биография`, calendar: `Афиша`, recordings: `Записи`, press: `Пресса`, news: `Новости`, contact: `Менеджмент` },
+    nav: { home: `Главная`, bio: `Биография`, calendar: `Афиша`, recordings: `Записи`, photos: `Фото`, press: `Пресса`, news: `Новости`, contact: `Менеджмент` },
     logo: { tagline: `Пианист` },
     footer: { copyright: `© 2026 Лев. Все права защищены.` },
     aria: { openMenu: `Открыть меню` },
@@ -333,9 +343,14 @@ const translations = {
       bio: `Биография — Лев`,
       calendar: `Афиша — Лев`,
       recordings: `Записи — Лев`,
+      photos: `Фото — Лев`,
       press: `Пресса — Лев`,
       news: `Новости — Лев`,
       contact: `Менеджмент и контакты — Лев`
+    },
+    photos: {
+      eyebrow: `Галерея`,
+      title: `Фото`
     },
     alerts: {
       newsletterSuccess: `Спасибо за подписку!`,
