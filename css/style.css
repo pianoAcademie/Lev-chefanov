@@ -478,7 +478,9 @@ section {
 
 .concert-photo-single {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1.4 / 1;
+  object-fit: cover;
+  object-position: 62% center;
   margin-top: 30px;
   display: block;
 }
