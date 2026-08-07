@@ -280,7 +280,8 @@ section {
 }
 
 .card .visual.landscape {
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 2 / 1;
+  background-position: center 4%;
 }
 
 .card .date {
