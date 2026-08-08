@@ -80,4 +80,39 @@ document.addEventListener("DOMContentLoaded", () => {
       if (e.key === "Escape" && videoModal.classList.contains("is-open")) closeVideoModal();
     });
   }
+
+  const photoModal = document.getElementById("photoModal");
+  const photoModalImg = document.getElementById("photoModalImg");
+  const photoModalClose = document.getElementById("photoModalClose");
+
+  if (photoModal && photoModalImg) {
+    const openPhotoModal = (src, alt) => {
+      photoModalImg.src = src;
+      photoModalImg.alt = alt || "";
+      photoModal.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+    };
+
+    const closePhotoModal = () => {
+      photoModal.classList.remove("is-open");
+      photoModalImg.src = "";
+      document.body.style.overflow = "";
+    };
+
+    document.querySelectorAll("a.photo-link").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const img = link.querySelector("img");
+        openPhotoModal(link.getAttribute("href"), img ? img.alt : "");
+      });
+    });
+
+    photoModalClose.addEventListener("click", closePhotoModal);
+    photoModal.addEventListener("click", (e) => {
+      if (e.target === photoModal) closePhotoModal();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && photoModal.classList.contains("is-open")) closePhotoModal();
+    });
+  }
 });
