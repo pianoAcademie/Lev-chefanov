@@ -124,10 +124,13 @@ const translations = {
       title: `Calendrier`,
       cta: `Billetterie`,
       events: [
+        { date: `Été<br>2026`, title: `Festival d'été`, place: `Festival de musique de chambre` },
+        { date: `Automne<br>2026`, title: `Tournée internationale`, place: `Plusieurs villes, Europe` },
         { date: `14 sept.<br>2026`, title: `Récital — Sonates et Ballades`, place: `Salle Gaveau, Paris, France` },
         { date: `02 oct.<br>2026`, title: `Concerto n°2 — Orchestre Philharmonique`, place: `Konzerthaus, Vienne, Autriche` },
         { date: `19 nov.<br>2026`, title: `Musique de chambre — Trio`, place: `Wigmore Hall, Londres, Royaume-Uni` },
         { date: `08 janv.<br>2027`, title: `Récital d'ouverture de saison`, place: `Philharmonie, Berlin, Allemagne` },
+        { date: `Mars<br>2027`, title: `Concerto — Salle Philharmonique`, place: `Salle Philharmonique` },
         { date: `22 mars<br>2027`, title: `Tournée nord-américaine`, place: `Carnegie Hall, New York, États-Unis` }
       ]
     },
@@ -301,10 +304,13 @@ const translations = {
       title: `Calendar`,
       cta: `Tickets`,
       events: [
+        { date: `Summer<br>2026`, title: `Summer festival`, place: `Chamber music festival` },
+        { date: `Autumn<br>2026`, title: `International tour`, place: `Several cities, Europe` },
         { date: `Sep 14<br>2026`, title: `Recital — Sonatas and Ballades`, place: `Salle Gaveau, Paris, France` },
         { date: `Oct 02<br>2026`, title: `Concerto No. 2 — Philharmonic Orchestra`, place: `Konzerthaus, Vienna, Austria` },
         { date: `Nov 19<br>2026`, title: `Chamber Music — Trio`, place: `Wigmore Hall, London, United Kingdom` },
         { date: `Jan 08<br>2027`, title: `Season Opening Recital`, place: `Philharmonie, Berlin, Germany` },
+        { date: `March<br>2027`, title: `Concerto — Philharmonic Hall`, place: `Philharmonic Hall` },
         { date: `Mar 22<br>2027`, title: `North American Tour`, place: `Carnegie Hall, New York, USA` }
       ]
     },
@@ -478,10 +484,13 @@ const translations = {
       title: `Афиша`,
       cta: `Билеты`,
       events: [
+        { date: `Лето<br>2026`, title: `Летний фестиваль`, place: `Фестиваль камерной музыки` },
+        { date: `Осень<br>2026`, title: `Международный тур`, place: `Несколько городов, Европа` },
         { date: `14 сент.<br>2026`, title: `Сольный концерт — Сонаты и Баллады`, place: `Зал Гаво, Париж, Франция` },
         { date: `02 окт.<br>2026`, title: `Концерт №2 — с Филармоническим оркестром`, place: `Концертхаус, Вена, Австрия` },
         { date: `19 нояб.<br>2026`, title: `Камерная музыка — Трио`, place: `Уигмор-холл, Лондон, Великобритания` },
         { date: `08 янв.<br>2027`, title: `Открытие концертного сезона`, place: `Филармония, Берлин, Германия` },
+        { date: `Март<br>2027`, title: `Концерт — Филармонический зал`, place: `Филармонический зал` },
         { date: `22 мар.<br>2027`, title: `Североамериканское турне`, place: `Карнеги-холл, Нью-Йорк, США` }
       ]
     },
