@@ -40,7 +40,7 @@ const translations = {
         eyebrow: `À la une`,
         title: `Temps forts`
       },
-      card1: { date: `Mars 2027`, title: `Concert hommage`, text: `Une soirée exceptionnelle dans l'une des plus belles salles d'Europe.` },
+      card1: { date: `Mars 2027`, title: `Prochain concert`, text: `Une soirée exceptionnelle dans l'une des plus belles salles d'Europe.` },
       card2: { date: `Automne 2026`, title: `Tournée internationale`, text: `Une série de récitals à travers plusieurs pays, avec un programme renouvelé.` },
       card3: { date: `Été 2026`, title: `Festival d'été`, text: `Participation à un festival de musique de chambre reconnu.` },
       split2: {
@@ -207,7 +207,7 @@ const translations = {
         eyebrow: `Highlights`,
         title: `Highlights`
       },
-      card1: { date: `March 2027`, title: `Tribute concert`, text: `An exceptional evening in one of Europe's finest concert halls.` },
+      card1: { date: `March 2027`, title: `Next concert`, text: `An exceptional evening in one of Europe's finest concert halls.` },
       card2: { date: `Autumn 2026`, title: `International tour`, text: `A series of recitals across several countries, with a renewed programme.` },
       card3: { date: `Summer 2026`, title: `Summer festival`, text: `Appearance at a renowned chamber music festival.` },
       split2: {
@@ -374,7 +374,7 @@ const translations = {
         eyebrow: `Главное`,
         title: `Главные события`
       },
-      card1: { date: `Март 2027`, title: `Концерт-посвящение`, text: `Особенный вечер в одном из красивейших концертных залов Европы.` },
+      card1: { date: `Март 2027`, title: `Ближайший концерт`, text: `Особенный вечер в одном из красивейших концертных залов Европы.` },
       card2: { date: `Осень 2026`, title: `Международный тур`, text: `Серия сольных концертов в нескольких странах с обновлённой программой.` },
       card3: { date: `Лето 2026`, title: `Летний фестиваль`, text: `Участие в известном фестивале камерной музыки.` },
       split2: {
