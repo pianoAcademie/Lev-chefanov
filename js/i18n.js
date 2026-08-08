@@ -31,9 +31,9 @@ const translations = {
         scroll: `Défiler`
       },
       split1: {
-        eyebrow: `Nouvel enregistrement`,
-        title: `Œuvres tardives — un nouvel album`,
-        text: `Un programme consacré aux pages les plus intimes du répertoire romantique, enregistré en concert et en studio.`,
+        eyebrow: `Concert filmé`,
+        title: `Enregistrement récent`,
+        text: `Extrait filmé d'un récital en concert, disponible en écoute complète.`,
         cta: `Écouter`
       },
       highlights: {
@@ -208,9 +208,9 @@ const translations = {
         scroll: `Scroll`
       },
       split1: {
-        eyebrow: `New recording`,
-        title: `Late Works — a new album`,
-        text: `A programme devoted to the most intimate pages of the Romantic repertoire, recorded live and in the studio.`,
+        eyebrow: `Filmed concert`,
+        title: `Recent recording`,
+        text: `A filmed excerpt from a live recital, available to watch in full.`,
         cta: `Listen`
       },
       highlights: {
@@ -385,9 +385,9 @@ const translations = {
         scroll: `Прокрутите`
       },
       split1: {
-        eyebrow: `Новая запись`,
-        title: `Поздние сочинения — новый альбом`,
-        text: `Программа, посвящённая самым сокровенным страницам романтического репертуара, записанная на концертах и в студии.`,
+        eyebrow: `Концертная запись`,
+        title: `Недавняя запись`,
+        text: `Видеозапись фрагмента концерта, доступна для просмотра целиком.`,
         cta: `Слушать`
       },
       highlights: {
