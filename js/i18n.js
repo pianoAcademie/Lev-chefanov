@@ -24,10 +24,10 @@ const translations = {
     },
     home: {
       hero: {
-        eyebrow: `Pianiste classique`,
+        eyebrow: `Pianiste russe`,
         title: `Lev Chefanov`,
-        text: `Récitals, concertos et musique de chambre à travers le monde. Découvrez l'actualité, l'agenda et les enregistrements.`,
-        cta: `Voir l'agenda`,
+        text: `Lauréat de concours internationaux. Récitals, musique de chambre et concerts avec orchestre.`,
+        cta: `Écouter`,
         scroll: `Défiler`
       },
       split1: {
@@ -162,6 +162,16 @@ const translations = {
       text: `Pour toute demande de booking, presse ou partenariat.`,
       location: `Paris, France`,
       cvDownload: `Télécharger le CV`,
+      presskit: {
+        eyebrow: `Ressources`,
+        title: `Press Kit`,
+        bio: `Biographie (FR / EN / RU)`,
+        photos: `Photos HD`,
+        repertoire: `Répertoire`,
+        videos: `Liens vidéo`,
+        cv: `CV / Dossier`,
+        contact: `Contact`
+      },
       form: { name: `Nom`, email: `E-mail`, message: `Message`, submit: `Envoyer` }
     }
   },
@@ -191,10 +201,10 @@ const translations = {
     },
     home: {
       hero: {
-        eyebrow: `Classical pianist`,
+        eyebrow: `Russian pianist`,
         title: `Lev Chefanov`,
-        text: `Recitals, concertos and chamber music around the world. Discover the latest news, tour dates and recordings.`,
-        cta: `View the calendar`,
+        text: `Prize winner of international piano competitions. Recitals, chamber music and orchestral performances.`,
+        cta: `Listen`,
         scroll: `Scroll`
       },
       split1: {
@@ -329,6 +339,16 @@ const translations = {
       text: `For any booking, press or partnership enquiries.`,
       location: `Paris, France`,
       cvDownload: `Download CV`,
+      presskit: {
+        eyebrow: `Resources`,
+        title: `Press Kit`,
+        bio: `Biography (FR / EN / RU)`,
+        photos: `HD Photos`,
+        repertoire: `Repertoire`,
+        videos: `Video links`,
+        cv: `CV / Press file`,
+        contact: `Contact`
+      },
       form: { name: `Name`, email: `Email`, message: `Message`, submit: `Send` }
     }
   },
@@ -358,10 +378,10 @@ const translations = {
     },
     home: {
       hero: {
-        eyebrow: `Классический пианист`,
+        eyebrow: `Русский пианист`,
         title: `Лев Чефанов`,
-        text: `Сольные концерты, выступления с оркестром и камерная музыка по всему миру. Смотрите новости, афишу и записи.`,
-        cta: `Смотреть афишу`,
+        text: `Лауреат международных конкурсов пианистов. Сольные концерты, камерная музыка и выступления с оркестром.`,
+        cta: `Слушать`,
         scroll: `Прокрутите`
       },
       split1: {
@@ -496,6 +516,16 @@ const translations = {
       text: `По всем вопросам букинга, прессы и партнёрства.`,
       location: `Париж, Франция`,
       cvDownload: `Скачать резюме`,
+      presskit: {
+        eyebrow: `Материалы`,
+        title: `Пресс-кит`,
+        bio: `Биография (FR / EN / RU)`,
+        photos: `Фото в высоком разрешении`,
+        repertoire: `Репертуар`,
+        videos: `Видео`,
+        cv: `Резюме / досье`,
+        contact: `Контакт`
+      },
       form: { name: `Имя`, email: `Электронная почта`, message: `Сообщение`, submit: `Отправить` }
     }
   }
