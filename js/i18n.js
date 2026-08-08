@@ -25,7 +25,7 @@ const translations = {
     home: {
       hero: {
         eyebrow: `Pianiste classique`,
-        title: `Lev`,
+        title: `Lev Chefanov`,
         text: `Récitals, concertos et musique de chambre à travers le monde. Découvrez l'actualité, l'agenda et les enregistrements.`,
         cta: `Voir l'agenda`,
         scroll: `Défiler`
@@ -192,7 +192,7 @@ const translations = {
     home: {
       hero: {
         eyebrow: `Classical pianist`,
-        title: `Lev`,
+        title: `Lev Chefanov`,
         text: `Recitals, concertos and chamber music around the world. Discover the latest news, tour dates and recordings.`,
         cta: `View the calendar`,
         scroll: `Scroll`
@@ -359,7 +359,7 @@ const translations = {
     home: {
       hero: {
         eyebrow: `Классический пианист`,
-        title: `Лев`,
+        title: `Лев Чефанов`,
         text: `Сольные концерты, выступления с оркестром и камерная музыка по всему миру. Смотрите новости, афишу и записи.`,
         cta: `Смотреть афишу`,
         scroll: `Прокрутите`
