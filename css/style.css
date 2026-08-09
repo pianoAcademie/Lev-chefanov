@@ -296,6 +296,18 @@ section {
 
 .card p { color: var(--grey); font-size: 0.95rem; }
 
+.card-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--black);
+  padding-bottom: 2px;
+}
+
+.card-link:hover { opacity: 0.6; }
+
 /* Event list (calendar-style) */
 .event-list { border-top: 1px solid var(--grey-light); }
 
@@ -572,6 +584,18 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
+}
+
+.rec-single {
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rec-single .visual {
+  aspect-ratio: 1/1;
+  background: var(--grey-light);
+  margin-bottom: 18px;
 }
 
 .rec-item .visual {
