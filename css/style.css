@@ -77,9 +77,11 @@ h1, h2, h3, h4 {
 
 .logo {
   font-family: var(--serif);
-  font-size: 1.5rem;
-  letter-spacing: 0.12em;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .logo span {
@@ -93,7 +95,7 @@ h1, h2, h3, h4 {
 
 .main-nav ul {
   display: flex;
-  gap: 36px;
+  gap: 24px;
   list-style: none;
 }
 
@@ -328,6 +330,45 @@ section {
 .event-row .place { color: var(--grey); font-size: 0.9rem; margin-top: 4px; }
 
 .event-row h3 { font-size: 1.25rem; }
+
+/* News list (editorial) */
+.news-list { border-top: 1px solid var(--grey-light); }
+
+.news-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 260px;
+  gap: 40px;
+  align-items: center;
+  padding: 42px 0;
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.news-row .date {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.news-row h3 { font-size: 1.5rem; margin-bottom: 10px; }
+
+.news-row p { color: var(--grey); font-size: 0.95rem; margin-bottom: 12px; max-width: 46ch; }
+
+.news-row .visual {
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center 15%;
+  background-color: var(--grey-light);
+}
+
+@media (max-width: 800px) {
+  .news-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 30px 0;
+  }
+  .news-row .visual { order: -1; aspect-ratio: 16/9; }
+}
 
 /* Newsletter */
 .newsletter {

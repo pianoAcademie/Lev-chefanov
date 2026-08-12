@@ -45,9 +45,9 @@ const translations = {
       card3: { date: `Été 2026`, title: `Festival d'été`, text: `Participation à un festival de musique de chambre reconnu.` },
       split2: {
         eyebrow: `Prochain concert`,
-        title: `Concerto — Salle Philharmonique`,
+        title: `En concert`,
         text: `Date, salle et programme détaillé disponibles dans la rubrique calendrier.`,
-        cta: `Consulter le calendrier`
+        cta: `Prochains concerts`
       },
       gallery: { eyebrow: `Galerie`, title: `En images`, alt: `Photo` },
       newsletter: {
@@ -147,15 +147,15 @@ const translations = {
     press: {
       eyebrow: `Revue de presse`,
       title: `Presse`,
-      item1: { source: `Le Monde de la Musique — Mars 2026`, quote: `« Une interprétation d'une clarté et d'une intensité rares, portée par une technique impeccable. »` },
+      item1: { source: `Независимая газета — 26 juillet 2026`, quote: `« J'aimerais encore beaucoup jouer les romantiques sur de vieux pianos Érard »`, link: `Lire sur ng.ru ↗` },
       item2: { source: `Gramophone — Janvier 2026`, quote: `« Lev impose un son personnel, entre rigueur et liberté, qui marque durablement l'auditeur. »` },
       item3: { source: `The Strad — Octobre 2025`, quote: `« Un artiste complet, dont le jeu allie profondeur d'analyse et sens du récit musical. »` }
     },
     news: {
       eyebrow: `Journal`,
       title: `Actualités`,
-      item1: { date: `12 Juin 2026`, title: `Sortie du nouvel album`, text: `Un nouvel enregistrement consacré aux œuvres tardives du répertoire romantique, disponible dès aujourd'hui.` },
-      item2: { date: `03 Mai 2026`, title: `Annonce de la tournée 2027`, text: `Dix villes, cinq pays : découvrez les premières dates de la prochaine tournée internationale.` },
+      item1: { date: `26 Juillet 2026`, title: `Entretien dans Nezavisimaya Gazeta`, text: `Lev revient sur sa formation, ses influences et sa vision de l'interprétation dans un grand entretien.`, link: `Lire sur ng.ru ↗` },
+      item2: { date: `À venir`, title: `Nouvelles dates de la saison`, text: `De nouvelles dates de concerts seront annoncées prochainement.` },
       item3: { date: `21 Mars 2026`, title: `Masterclasse publique`, text: `Une masterclasse ouverte au public autour du répertoire pour piano seul.` }
     },
     contact: {
@@ -327,15 +327,15 @@ const translations = {
     press: {
       eyebrow: `Press`,
       title: `Press`,
-      item1: { source: `Le Monde de la Musique — March 2026`, quote: `"A performance of rare clarity and intensity, carried by an impeccable technique."` },
+      item1: { source: `Nezavisimaya Gazeta — July 26, 2026`, quote: `"I would still love to play the Romantics on old Érard pianos"`, link: `Read on ng.ru ↗` },
       item2: { source: `Gramophone — January 2026`, quote: `"Lev asserts a personal sound, between rigour and freedom, that leaves a lasting impression on the listener."` },
       item3: { source: `The Strad — October 2025`, quote: `"A complete artist, whose playing combines analytical depth with a real sense of musical narrative."` }
     },
     news: {
       eyebrow: `News`,
       title: `News`,
-      item1: { date: `June 12, 2026`, title: `New Album Release`, text: `A new recording devoted to the late works of the Romantic repertoire, available today.` },
-      item2: { date: `May 03, 2026`, title: `2027 Tour Announcement`, text: `Ten cities, five countries: discover the first dates of the upcoming international tour.` },
+      item1: { date: `July 26, 2026`, title: `Interview in Nezavisimaya Gazeta`, text: `Lev discusses his training, his influences and his approach to performance in an in-depth interview.`, link: `Read on ng.ru ↗` },
+      item2: { date: `Coming soon`, title: `New season dates`, text: `New concert dates will be announced shortly.` },
       item3: { date: `March 21, 2026`, title: `Public Masterclass`, text: `A masterclass open to the public, focused on the solo piano repertoire.` }
     },
     contact: {
@@ -405,9 +405,9 @@ const translations = {
       card3: { date: `Лето 2026`, title: `Летний фестиваль`, text: `Участие в известном фестивале камерной музыки.` },
       split2: {
         eyebrow: `Ближайший концерт`,
-        title: `Концерт — Филармонический зал`,
+        title: `На сцене`,
         text: `Дата, зал и подробная программа — в разделе «Афиша».`,
-        cta: `Смотреть афишу`
+        cta: `Ближайшие концерты`
       },
       gallery: { eyebrow: `Галерея`, title: `В фотографиях`, alt: `Фото` },
       newsletter: {
@@ -507,15 +507,15 @@ const translations = {
     press: {
       eyebrow: `Пресса`,
       title: `Пресса`,
-      item1: { source: `Le Monde de la Musique — март 2026`, quote: `«Исполнение редкой ясности и глубины, подкреплённое безупречной техникой.»` },
+      item1: { source: `Независимая газета — 26 июля 2026`, quote: `«Я бы еще с удовольствием поиграл романтиков на старинных Эрарах»`, link: `Читать на ng.ru ↗` },
       item2: { source: `Gramophone — январь 2026`, quote: `«Лев создаёт неповторимое звучание — на грани строгости и свободы, — которое надолго остаётся в памяти слушателя.»` },
       item3: { source: `The Strad — октябрь 2025`, quote: `«Разносторонний музыкант, в игре которого глубина анализа сочетается с чувством музыкального повествования.»` }
     },
     news: {
       eyebrow: `Новости`,
       title: `Новости`,
-      item1: { date: `12 июня 2026`, title: `Выход нового альбома`, text: `Новая запись, посвящённая поздним сочинениям романтического репертуара, уже доступна.` },
-      item2: { date: `03 мая 2026`, title: `Анонс турне 2027`, text: `Десять городов, пять стран: первые даты предстоящего международного турне.` },
+      item1: { date: `26 июля 2026`, title: `Интервью «Независимой газете»`, text: `Лев рассказывает о своём обучении, влияниях и подходе к исполнительству в большом интервью.`, link: `Читать на ng.ru ↗` },
+      item2: { date: `Скоро`, title: `Новые даты сезона`, text: `Новые даты концертов будут объявлены в ближайшее время.` },
       item3: { date: `21 марта 2026`, title: `Открытый мастер-класс`, text: `Мастер-класс, открытый для публики, посвящённый репертуару для фортепиано соло.` }
     },
     contact: {
