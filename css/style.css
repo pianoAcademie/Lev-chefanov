@@ -242,7 +242,7 @@ section {
   align-items: center;
 }
 
-.split img { width: 100%; }
+.split img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 
 .split .eyebrow { margin-bottom: 14px; }
 

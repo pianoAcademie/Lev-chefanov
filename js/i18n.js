@@ -137,7 +137,7 @@ const translations = {
     recordings: {
       eyebrow: `Discographie`,
       title: `Enregistrements`,
-      ecouter: { eyebrow: `Écouter`, title: `Concerto n°2, en concert` },
+      ecouter: { eyebrow: `Écouter`, title: `Prokofiev, Sonate n°8 en si bémol majeur, op. 84` },
       rec1: { label: `Bientôt disponible`, title: `Album studio` },
       rec2: { label: `Album — 2024`, title: `Sonates` },
       rec3: { label: `Vidéo — Concert live`, title: `Concerto n°2, en concert` },
@@ -317,7 +317,7 @@ const translations = {
     recordings: {
       eyebrow: `Discography`,
       title: `Recordings`,
-      ecouter: { eyebrow: `Listen`, title: `Concerto No. 2, live` },
+      ecouter: { eyebrow: `Listen`, title: `Prokofiev, Sonata No. 8 in B-flat Major, Op. 84` },
       rec1: { label: `Coming soon`, title: `Studio album` },
       rec2: { label: `Album — 2024`, title: `Sonatas` },
       rec3: { label: `Video — Live Concert`, title: `Concerto No. 2, live` },
@@ -497,7 +497,7 @@ const translations = {
     recordings: {
       eyebrow: `Дискография`,
       title: `Записи`,
-      ecouter: { eyebrow: `Слушать`, title: `Концерт №2, вживую` },
+      ecouter: { eyebrow: `Слушать`, title: `Прокофьев, Соната №8 си-бемоль мажор, соч. 84` },
       rec1: { label: `Скоро`, title: `Студийный альбом` },
       rec2: { label: `Альбом — 2024`, title: `Сонаты` },
       rec3: { label: `Видео — концертная запись`, title: `Концерт №2, вживую` },
