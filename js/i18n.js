@@ -40,7 +40,7 @@ const translations = {
         eyebrow: `À la une`,
         title: `Temps forts`
       },
-      card1: { date: `Mars 2027`, title: `Prochain concert`, text: `Une soirée exceptionnelle dans l'une des plus belles salles d'Europe.` },
+      card1: { date: `Mars 2027`, title: `Prochain concert`, text: `Une soirée exceptionnelle dans l'une des plus belles salles d'Europe et Russie.` },
       card2: { date: `Automne 2026`, title: `Tournée internationale`, text: `Une série de récitals à travers plusieurs pays, avec un programme renouvelé.` },
       card3: { date: `Été 2026`, title: `Festival d'été`, text: `Participation à un festival de musique de chambre reconnu.` },
       split2: {

@@ -36,10 +36,10 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="background: linear-gradient(180deg, rgba(17,17,17,0.35) 0%, rgba(17,17,17,0.55) 100%), url('images/concert/IMG_6679.JPG') center 85%/cover no-repeat; border-bottom: none;">
   <div class="container">
-    <p class="eyebrow" data-i18n="recordings.eyebrow">Discographie</p>
-    <h1 data-i18n="recordings.title">Enregistrements</h1>
+    <p class="eyebrow" data-i18n="recordings.eyebrow" style="color: rgba(255,255,255,0.75);">Discographie</p>
+    <h1 data-i18n="recordings.title" style="color: #fff;">Enregistrements</h1>
   </div>
 </section>
 
@@ -50,16 +50,15 @@
       <h2 data-i18n="recordings.ecouter.title">Prokofiev, Sonate n°8 en si bémol majeur, op. 84</h2>
       <div class="rule"></div>
     </div>
-    <div style="position:relative;aspect-ratio:16/9;width:100%;max-width:900px;margin:0 auto;background:#000;">
-      <iframe src="https://www.youtube.com/embed/vfT--f2uQnU" title="Lev Tchéfanov — Prokofiev, Sonate n°8" allowfullscreen loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-    </div>
+    <video controls preload="metadata" poster="videos/LEV-poster.jpg" style="width:100%;max-width:900px;display:block;margin:0 auto;background:#000;">
+      <source src="videos/LEV.mp4" type="video/mp4">
+    </video>
   </div>
 </section>
 
 <section style="padding-top:0;">
   <div class="container">
     <div class="rec-single">
-      <div class="visual"></div>
       <p class="label" data-i18n="recordings.rec1.label">Bientôt disponible</p>
       <h3 data-i18n="recordings.rec1.title">Album studio</h3>
     </div>
@@ -129,7 +128,7 @@
   </div>
 </footer>
 
-<script src="js/i18n.js"></script>
+<script src="js/i18n.js?v=2"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
