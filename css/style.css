@@ -311,25 +311,75 @@ section {
 .card-link:hover { opacity: 0.6; }
 
 /* Event list (calendar-style) */
-.event-list { border-top: 1px solid var(--grey-light); }
+.event-list { border-top: none; }
+
+.calendar-subtitle {
+  text-align: center;
+  color: var(--grey);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.month-group {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin: 44px 0 4px;
+  padding-top: 24px;
+  border-top: 1px solid var(--grey-light);
+}
+
+.month-group:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 
 .event-row {
   display: grid;
-  grid-template-columns: 140px 1fr auto;
+  grid-template-columns: 100px 1fr 170px;
   gap: 28px;
   align-items: center;
-  padding: 30px 0;
+  padding: 26px 0;
   border-bottom: 1px solid var(--grey-light);
 }
 
 .event-row .date {
   font-family: var(--serif);
-  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
 }
 
-.event-row .place { color: var(--grey); font-size: 0.9rem; margin-top: 4px; }
+.event-row .date .day { font-size: 2.6rem; }
 
-.event-row h3 { font-size: 1.25rem; }
+.event-row .date .month,
+.event-row .date .year {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.event-row h3 { font-size: 1.05rem; margin-bottom: 6px; }
+
+.event-row .program {
+  font-family: var(--serif);
+  font-style: italic;
+  color: #a3895c;
+  margin-bottom: 6px;
+}
+
+.event-row .performers { color: var(--grey); font-size: 0.88rem; line-height: 1.5; }
+
+.event-row .location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--grey);
+  font-size: 0.85rem;
+  justify-self: end;
+}
+
+.event-row .location svg { width: 14px; height: 14px; flex-shrink: 0; }
 
 /* News list (editorial) */
 .news-list { border-top: 1px solid var(--grey-light); }

@@ -122,16 +122,16 @@ const translations = {
     calendar: {
       eyebrow: `Agenda`,
       title: `Calendrier`,
-      cta: `Billetterie`,
+      subtitle: `Prochains concerts et engagements`,
+      month1: `Septembre 2026`,
+      month2: `Novembre 2026`,
       events: [
-        { date: `Été<br>2026`, title: `Festival d'été`, place: `Festival de musique de chambre` },
-        { date: `Automne<br>2026`, title: `Tournée internationale`, place: `Plusieurs villes, Europe` },
-        { date: `14 sept.<br>2026`, title: `Récital — Sonates et Ballades`, place: `Salle Gaveau, Paris, France` },
-        { date: `02 oct.<br>2026`, title: `Concerto n°2 — Orchestre Philharmonique`, place: `Konzerthaus, Vienne, Autriche` },
-        { date: `19 nov.<br>2026`, title: `Musique de chambre — Trio`, place: `Wigmore Hall, Londres, Royaume-Uni` },
-        { date: `08 janv.<br>2027`, title: `Récital d'ouverture de saison`, place: `Philharmonie, Berlin, Allemagne` },
-        { date: `Mars<br>2027`, title: `Concerto — Salle Philharmonique`, place: `Salle Philharmonique` },
-        { date: `22 mars<br>2027`, title: `Tournée nord-américaine`, place: `Carnegie Hall, New York, États-Unis` }
+        { date: `<span class="day">12</span><span class="month">Sept.</span><span class="year">2026</span>`, venue: `Conservatoire de Moscou — Salle Rachmaninov`, program: `Francis Poulenc — Concerto pour deux pianos en ré mineur`, performers: `Lev Chefanov &amp; Konstantin Sholomitsky, pianos<br>Grigory Volkov, direction`, place: `Moscou, Russie` },
+        { date: `<span class="day">6</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Centre Kotchoubeï — Salon doré`, program: `Récital de piano`, performers: `Lev Chefanov`, place: `Moscou, Russie` },
+        { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Conservatoire de Moscou — Salle Rachmaninov`, program: `Concert collectif`, performers: `Lev Chefanov, piano`, place: `Moscou, Russie` },
+        { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Espace artistique « Couleur et Son »`, program: `Récital de piano`, performers: `Lev Chefanov`, place: `Moscou, Russie` },
+        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Philharmonie de Vologda`, program: `Récital à deux pianistes`, performers: `Lev Chefanov &amp; [Prénom Nom Chefanov]`, place: `Vologda, Russie` },
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Maison Rachmaninov`, program: `Récital à deux pianistes`, performers: `Lev Chefanov &amp; [Prénom Nom Chefanov]`, place: `Moscou, Russie` }
       ]
     },
     recordings: {
@@ -148,7 +148,7 @@ const translations = {
       eyebrow: `Revue de presse`,
       title: `Presse`,
       item1: { source: `Независимая газета — 26 juillet 2026`, quote: `« J'aimerais encore beaucoup jouer les romantiques sur de vieux pianos Érard »`, link: `Lire sur ng.ru ↗` },
-      item2: { source: `Gramophone — Janvier 2026`, quote: `« Lev impose un son personnel, entre rigueur et liberté, qui marque durablement l'auditeur. »` },
+      item2: { source: `Москва 24, « Вечерние встречи » — 21 août 2026`, quote: `« Путь на сцену » — entretien radio sur le parcours de Lev jusqu'à la scène.`, link: `Écouter sur m24.ru ↗` },
       item3: { source: `The Strad — Octobre 2025`, quote: `« Un artiste complet, dont le jeu allie profondeur d'analyse et sens du récit musical. »` }
     },
     news: {
@@ -302,16 +302,16 @@ const translations = {
     calendar: {
       eyebrow: `Schedule`,
       title: `Calendar`,
-      cta: `Tickets`,
+      subtitle: `Upcoming concerts and engagements`,
+      month1: `September 2026`,
+      month2: `November 2026`,
       events: [
-        { date: `Summer<br>2026`, title: `Summer festival`, place: `Chamber music festival` },
-        { date: `Autumn<br>2026`, title: `International tour`, place: `Several cities, Europe` },
-        { date: `Sep 14<br>2026`, title: `Recital — Sonatas and Ballades`, place: `Salle Gaveau, Paris, France` },
-        { date: `Oct 02<br>2026`, title: `Concerto No. 2 — Philharmonic Orchestra`, place: `Konzerthaus, Vienna, Austria` },
-        { date: `Nov 19<br>2026`, title: `Chamber Music — Trio`, place: `Wigmore Hall, London, United Kingdom` },
-        { date: `Jan 08<br>2027`, title: `Season Opening Recital`, place: `Philharmonie, Berlin, Germany` },
-        { date: `March<br>2027`, title: `Concerto — Philharmonic Hall`, place: `Philharmonic Hall` },
-        { date: `Mar 22<br>2027`, title: `North American Tour`, place: `Carnegie Hall, New York, USA` }
+        { date: `<span class="day">12</span><span class="month">Sept.</span><span class="year">2026</span>`, venue: `Moscow Conservatory — Rachmaninov Hall`, program: `Francis Poulenc — Concerto for Two Pianos in D minor`, performers: `Lev Chefanov &amp; Konstantin Sholomitsky, pianos<br>Grigory Volkov, conductor`, place: `Moscow, Russia` },
+        { date: `<span class="day">6</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Kochubey Centre — Golden Salon`, program: `Piano recital`, performers: `Lev Chefanov`, place: `Moscow, Russia` },
+        { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Moscow Conservatory — Rachmaninov Hall`, program: `Group concert`, performers: `Lev Chefanov, piano`, place: `Moscow, Russia` },
+        { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `"Colour and Sound" art space`, program: `Piano recital`, performers: `Lev Chefanov`, place: `Moscow, Russia` },
+        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Vologda Philharmonic`, program: `Two-piano recital`, performers: `Lev Chefanov &amp; [First Last Chefanov]`, place: `Vologda, Russia` },
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Rachmaninov House`, program: `Two-piano recital`, performers: `Lev Chefanov &amp; [First Last Chefanov]`, place: `Moscow, Russia` }
       ]
     },
     recordings: {
@@ -328,7 +328,7 @@ const translations = {
       eyebrow: `Press`,
       title: `Press`,
       item1: { source: `Nezavisimaya Gazeta — July 26, 2026`, quote: `"I would still love to play the Romantics on old Érard pianos"`, link: `Read on ng.ru ↗` },
-      item2: { source: `Gramophone — January 2026`, quote: `"Lev asserts a personal sound, between rigour and freedom, that leaves a lasting impression on the listener."` },
+      item2: { source: `Moskva 24, "Evening Meetings" — August 21, 2026`, quote: `"The path to the stage" — a radio interview about Lev's journey to becoming a pianist.`, link: `Listen on m24.ru ↗` },
       item3: { source: `The Strad — October 2025`, quote: `"A complete artist, whose playing combines analytical depth with a real sense of musical narrative."` }
     },
     news: {
@@ -482,16 +482,16 @@ const translations = {
     calendar: {
       eyebrow: `Афиша`,
       title: `Афиша`,
-      cta: `Билеты`,
+      subtitle: `Ближайшие концерты и выступления`,
+      month1: `Сентябрь 2026`,
+      month2: `Ноябрь 2026`,
       events: [
-        { date: `Лето<br>2026`, title: `Летний фестиваль`, place: `Фестиваль камерной музыки` },
-        { date: `Осень<br>2026`, title: `Международный тур`, place: `Несколько городов, Европа` },
-        { date: `14 сент.<br>2026`, title: `Сольный концерт — Сонаты и Баллады`, place: `Зал Гаво, Париж, Франция` },
-        { date: `02 окт.<br>2026`, title: `Концерт №2 — с Филармоническим оркестром`, place: `Концертхаус, Вена, Австрия` },
-        { date: `19 нояб.<br>2026`, title: `Камерная музыка — Трио`, place: `Уигмор-холл, Лондон, Великобритания` },
-        { date: `08 янв.<br>2027`, title: `Открытие концертного сезона`, place: `Филармония, Берлин, Германия` },
-        { date: `Март<br>2027`, title: `Концерт — Филармонический зал`, place: `Филармонический зал` },
-        { date: `22 мар.<br>2027`, title: `Североамериканское турне`, place: `Карнеги-холл, Нью-Йорк, США` }
+        { date: `<span class="day">12</span><span class="month">сент.</span><span class="year">2026</span>`, venue: `Московская консерватория — Рахманиновский зал`, program: `Франсис Пуленк — Концерт для двух фортепиано ре минор`, performers: `Лев Чефанов и Константин Шоломицкий, фортепиано<br>Григорий Волков, дирижёр`, place: `Москва, Россия` },
+        { date: `<span class="day">6</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Центр Кочубей — Золотая гостиная`, program: `Фортепианный концерт`, performers: `Лев Чефанов`, place: `Москва, Россия` },
+        { date: `<span class="day">8</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Московская консерватория — Рахманиновский зал`, program: `Сборный концерт`, performers: `Лев Чефанов, фортепиано`, place: `Москва, Россия` },
+        { date: `<span class="day">14</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Арт-пространство «Цвет и звук»`, program: `Фортепианный концерт`, performers: `Лев Чефанов`, place: `Москва, Россия` },
+        { date: `<span class="day">20</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Вологодская филармония`, program: `Концерт для двух фортепиано`, performers: `Лев Чефанов и [Имя Фамилия Чефанов]`, place: `Вологда, Россия` },
+        { date: `<span class="day">22</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Дом Рахманинова`, program: `Концерт для двух фортепиано`, performers: `Лев Чефанов и [Имя Фамилия Чефанов]`, place: `Москва, Россия` }
       ]
     },
     recordings: {
@@ -508,7 +508,7 @@ const translations = {
       eyebrow: `Пресса`,
       title: `Пресса`,
       item1: { source: `Независимая газета — 26 июля 2026`, quote: `«Я бы еще с удовольствием поиграл романтиков на старинных Эрарах»`, link: `Читать на ng.ru ↗` },
-      item2: { source: `Gramophone — январь 2026`, quote: `«Лев создаёт неповторимое звучание — на грани строгости и свободы, — которое надолго остаётся в памяти слушателя.»` },
+      item2: { source: `Москва 24, «Вечерние встречи» — 21 августа 2026`, quote: `«Путь на сцену» — радиоинтервью о том, как Лев пришёл к профессии пианиста.`, link: `Слушать на m24.ru ↗` },
       item3: { source: `The Strad — октябрь 2025`, quote: `«Разносторонний музыкант, в игре которого глубина анализа сочетается с чувством музыкального повествования.»` }
     },
     news: {
