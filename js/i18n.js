@@ -130,8 +130,8 @@ const translations = {
         { date: `<span class="day">6</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Centre Kotchoubeï — Salon doré`, program: `Récital de piano`, performers: `Lev Chefanov`, place: `Moscou, Russie` },
         { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Conservatoire de Moscou — Salle Rachmaninov`, program: `Concert collectif`, performers: `Lev Chefanov, piano`, place: `Moscou, Russie` },
         { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Espace artistique « Couleur et Son »`, program: `Récital de piano`, performers: `Lev Chefanov`, place: `Moscou, Russie` },
-        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Philharmonie de Vologda`, program: `Récital à deux pianistes`, performers: `Lev Chefanov &amp; [Prénom Nom Chefanov]`, place: `Vologda, Russie` },
-        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Maison Rachmaninov`, program: `Récital à deux pianistes`, performers: `Lev Chefanov &amp; [Prénom Nom Chefanov]`, place: `Moscou, Russie` }
+        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Philharmonie de Vologda`, program: `Récital à deux pianistes`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Vologda, Russie` },
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Maison Rachmaninov`, program: `Récital à deux pianistes`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Moscou, Russie` }
       ]
     },
     recordings: {
@@ -310,8 +310,8 @@ const translations = {
         { date: `<span class="day">6</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Kochubey Centre — Golden Salon`, program: `Piano recital`, performers: `Lev Chefanov`, place: `Moscow, Russia` },
         { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Moscow Conservatory — Rachmaninov Hall`, program: `Group concert`, performers: `Lev Chefanov, piano`, place: `Moscow, Russia` },
         { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `"Colour and Sound" art space`, program: `Piano recital`, performers: `Lev Chefanov`, place: `Moscow, Russia` },
-        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Vologda Philharmonic`, program: `Two-piano recital`, performers: `Lev Chefanov &amp; [First Last Chefanov]`, place: `Vologda, Russia` },
-        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Rachmaninov House`, program: `Two-piano recital`, performers: `Lev Chefanov &amp; [First Last Chefanov]`, place: `Moscow, Russia` }
+        { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Vologda Philharmonic`, program: `Two-piano recital`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Vologda, Russia` },
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Rachmaninov House`, program: `Two-piano recital`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Moscow, Russia` }
       ]
     },
     recordings: {
@@ -490,8 +490,8 @@ const translations = {
         { date: `<span class="day">6</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Центр Кочубей — Золотая гостиная`, program: `Фортепианный концерт`, performers: `Лев Чефанов`, place: `Москва, Россия` },
         { date: `<span class="day">8</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Московская консерватория — Рахманиновский зал`, program: `Сборный концерт`, performers: `Лев Чефанов, фортепиано`, place: `Москва, Россия` },
         { date: `<span class="day">14</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Арт-пространство «Цвет и звук»`, program: `Фортепианный концерт`, performers: `Лев Чефанов`, place: `Москва, Россия` },
-        { date: `<span class="day">20</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Вологодская филармония`, program: `Концерт для двух фортепиано`, performers: `Лев Чефанов и [Имя Фамилия Чефанов]`, place: `Вологда, Россия` },
-        { date: `<span class="day">22</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Дом Рахманинова`, program: `Концерт для двух фортепиано`, performers: `Лев Чефанов и [Имя Фамилия Чефанов]`, place: `Москва, Россия` }
+        { date: `<span class="day">20</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Вологодская филармония`, program: `Концерт для двух фортепиано`, performers: `Денис Чефанов и Лев Чефанов`, place: `Вологда, Россия` },
+        { date: `<span class="day">22</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Дом Рахманинова`, program: `Концерт для двух фортепиано`, performers: `Денис Чефанов и Лев Чефанов`, place: `Москва, Россия` }
       ]
     },
     recordings: {
