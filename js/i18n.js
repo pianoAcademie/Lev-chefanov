@@ -131,7 +131,7 @@ const translations = {
         { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Conservatoire de Moscou — Salle Rachmaninov`, program: `Concert collectif`, performers: `Lev Chefanov, piano`, place: `Moscou, Russie` },
         { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Espace artistique « Couleur et Son »`, program: `Récital de piano`, performers: `Lev Chefanov`, place: `Moscou, Russie` },
         { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Philharmonie de Vologda`, program: `Récital à deux pianistes`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Vologda, Russie` },
-        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Maison Rachmaninov`, program: `Récital à deux pianistes`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Moscou, Russie` }
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Maison Rachmaninov`, program: `Récital à deux pianistes`, performers: `Makar Tokmachev &amp; Lev Chefanov`, place: `Moscou, Russie` }
       ]
     },
     recordings: {
@@ -149,14 +149,16 @@ const translations = {
       title: `Presse`,
       item1: { source: `Независимая газета — 26 juillet 2026`, quote: `« J'aimerais encore beaucoup jouer les romantiques sur de vieux pianos Érard »`, link: `Lire sur ng.ru ↗` },
       item2: { source: `Москва 24, « Вечерние встречи » — 21 août 2026`, quote: `« Путь на сцену » — entretien radio sur le parcours de Lev jusqu'à la scène.`, link: `Écouter sur m24.ru ↗` },
-      item3: { source: `The Strad — Octobre 2025`, quote: `« Un artiste complet, dont le jeu allie profondeur d'analyse et sens du récit musical. »` }
+      item3: { source: `Podcast — 23 septembre 2026`, quote: `Un podcast à deux voix avec Konstantin Sholomitsky, autour du piano et de la scène.`, link: `Regarder sur VK ↗` },
+      item4: { source: `Entretien télévisé — 29 septembre 2026`, quote: `Un nouvel entretien filmé, consacré au parcours et à l'univers musical de Lev.`, link: `Regarder sur VK ↗` }
     },
     news: {
       eyebrow: `Journal`,
       title: `Actualités`,
       item1: { date: `26 Juillet 2026`, title: `Entretien dans Nezavisimaya Gazeta`, text: `Lev revient sur sa formation, ses influences et sa vision de l'interprétation dans un grand entretien.`, link: `Lire sur ng.ru ↗` },
       item2: { date: `À venir`, title: `Nouvelles dates de la saison`, text: `De nouvelles dates de concerts seront annoncées prochainement.` },
-      item3: { date: `21 Mars 2026`, title: `Masterclasse publique`, text: `Une masterclasse ouverte au public autour du répertoire pour piano seul.` }
+      item3: { date: `23 Septembre 2026`, title: `Un nouveau podcast avec Konstantin Sholomitsky`, text: `Lev et Konstantin échangent autour du piano et de la scène dans un podcast à deux voix.`, link: `Regarder sur VK ↗` },
+      item4: { date: `29 Septembre 2026`, title: `Nouvel entretien télévisé`, text: `Un nouvel entretien filmé, consacré au parcours et à l'univers musical de Lev.`, link: `Regarder sur VK ↗` }
     },
     contact: {
       eyebrow: `Nous contacter`,
@@ -311,7 +313,7 @@ const translations = {
         { date: `<span class="day">8</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Moscow Conservatory — Rachmaninov Hall`, program: `Group concert`, performers: `Lev Chefanov, piano`, place: `Moscow, Russia` },
         { date: `<span class="day">14</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `"Colour and Sound" art space`, program: `Piano recital`, performers: `Lev Chefanov`, place: `Moscow, Russia` },
         { date: `<span class="day">20</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Vologda Philharmonic`, program: `Two-piano recital`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Vologda, Russia` },
-        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Rachmaninov House`, program: `Two-piano recital`, performers: `Denis Chefanov &amp; Lev Chefanov`, place: `Moscow, Russia` }
+        { date: `<span class="day">22</span><span class="month">Nov.</span><span class="year">2026</span>`, venue: `Rachmaninov House`, program: `Two-piano recital`, performers: `Makar Tokmachev &amp; Lev Chefanov`, place: `Moscow, Russia` }
       ]
     },
     recordings: {
@@ -329,14 +331,16 @@ const translations = {
       title: `Press`,
       item1: { source: `Nezavisimaya Gazeta — July 26, 2026`, quote: `"I would still love to play the Romantics on old Érard pianos"`, link: `Read on ng.ru ↗` },
       item2: { source: `Moskva 24, "Evening Meetings" — August 21, 2026`, quote: `"The path to the stage" — a radio interview about Lev's journey to becoming a pianist.`, link: `Listen on m24.ru ↗` },
-      item3: { source: `The Strad — October 2025`, quote: `"A complete artist, whose playing combines analytical depth with a real sense of musical narrative."` }
+      item3: { source: `Podcast — September 23, 2026`, quote: `A two-voice podcast with Konstantin Sholomitsky, on piano and the stage.`, link: `Watch on VK ↗` },
+      item4: { source: `TV interview — September 29, 2026`, quote: `A new filmed interview about Lev's journey and musical world.`, link: `Watch on VK ↗` }
     },
     news: {
       eyebrow: `News`,
       title: `News`,
       item1: { date: `July 26, 2026`, title: `Interview in Nezavisimaya Gazeta`, text: `Lev discusses his training, his influences and his approach to performance in an in-depth interview.`, link: `Read on ng.ru ↗` },
       item2: { date: `Coming soon`, title: `New season dates`, text: `New concert dates will be announced shortly.` },
-      item3: { date: `March 21, 2026`, title: `Public Masterclass`, text: `A masterclass open to the public, focused on the solo piano repertoire.` }
+      item3: { date: `September 23, 2026`, title: `A new podcast with Konstantin Sholomitsky`, text: `Lev and Konstantin discuss piano and the stage in a two-voice podcast.`, link: `Watch on VK ↗` },
+      item4: { date: `September 29, 2026`, title: `New TV interview`, text: `A new filmed interview about Lev's journey and musical world.`, link: `Watch on VK ↗` }
     },
     contact: {
       eyebrow: `Get in touch`,
@@ -491,7 +495,7 @@ const translations = {
         { date: `<span class="day">8</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Московская консерватория — Рахманиновский зал`, program: `Сборный концерт`, performers: `Лев Чефанов, фортепиано`, place: `Москва, Россия` },
         { date: `<span class="day">14</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Арт-пространство «Цвет и звук»`, program: `Фортепианный концерт`, performers: `Лев Чефанов`, place: `Москва, Россия` },
         { date: `<span class="day">20</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Вологодская филармония`, program: `Концерт для двух фортепиано`, performers: `Денис Чефанов и Лев Чефанов`, place: `Вологда, Россия` },
-        { date: `<span class="day">22</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Дом Рахманинова`, program: `Концерт для двух фортепиано`, performers: `Денис Чефанов и Лев Чефанов`, place: `Москва, Россия` }
+        { date: `<span class="day">22</span><span class="month">нояб.</span><span class="year">2026</span>`, venue: `Дом Рахманинова`, program: `Концерт для двух фортепиано`, performers: `Макар Токмачев и Лев Чефанов`, place: `Москва, Россия` }
       ]
     },
     recordings: {
@@ -509,14 +513,16 @@ const translations = {
       title: `Пресса`,
       item1: { source: `Независимая газета — 26 июля 2026`, quote: `«Я бы еще с удовольствием поиграл романтиков на старинных Эрарах»`, link: `Читать на ng.ru ↗` },
       item2: { source: `Москва 24, «Вечерние встречи» — 21 августа 2026`, quote: `«Путь на сцену» — радиоинтервью о том, как Лев пришёл к профессии пианиста.`, link: `Слушать на m24.ru ↗` },
-      item3: { source: `The Strad — октябрь 2025`, quote: `«Разносторонний музыкант, в игре которого глубина анализа сочетается с чувством музыкального повествования.»` }
+      item3: { source: `Подкаст — 23 сентября 2026`, quote: `Подкаст-беседа с Константином Шоломицким о фортепиано и сцене.`, link: `Смотреть на VK ↗` },
+      item4: { source: `Телеинтервью — 29 сентября 2026`, quote: `Новое видеоинтервью о творческом пути и музыкальном мире Лёва.`, link: `Смотреть на VK ↗` }
     },
     news: {
       eyebrow: `Новости`,
       title: `Новости`,
       item1: { date: `26 июля 2026`, title: `Интервью «Независимой газете»`, text: `Лев рассказывает о своём обучении, влияниях и подходе к исполнительству в большом интервью.`, link: `Читать на ng.ru ↗` },
       item2: { date: `Скоро`, title: `Новые даты сезона`, text: `Новые даты концертов будут объявлены в ближайшее время.` },
-      item3: { date: `21 марта 2026`, title: `Открытый мастер-класс`, text: `Мастер-класс, открытый для публики, посвящённый репертуару для фортепиано соло.` }
+      item3: { date: `23 сентября 2026`, title: `Новый подкаст с Константином Шоломицким`, text: `Лев и Константин беседуют о фортепиано и сцене в подкасте на двоих.`, link: `Смотреть на VK ↗` },
+      item4: { date: `29 сентября 2026`, title: `Новое телеинтервью`, text: `Новое видеоинтервью о творческом пути и музыкальном мире Лёва.`, link: `Смотреть на VK ↗` }
     },
     contact: {
       eyebrow: `Связаться с нами`,
